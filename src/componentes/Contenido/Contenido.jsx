@@ -3,7 +3,7 @@ import Tarjeta from '../Tarjeta/Tarjeta'
 
 export default function Contenido() {
   return (
-    <div>
+    <div className='grid grid-rows-4 '>
         <div className="artistas-populares ">
             <h3 className='text-2xl font-bold'>Artistas Populares</h3>
             <div className="tarjetas grid grid-cols-6">

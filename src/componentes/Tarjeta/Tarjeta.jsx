@@ -28,7 +28,7 @@ export function Tarjeta({ titulo, descripcion, artista, esArtista = false, image
 
                 <div>
                     <div className="relative">
-                    <img src={imagenSrc} alt="" />
+                    <img src={imagenSrc} className='rounded-lg' alt="" />
                     {isHovered && (
                         <div className="absolute bottom-0 right-0 m-2">
                         <BotonReproducir/>
