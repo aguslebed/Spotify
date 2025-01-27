@@ -6,7 +6,9 @@ export function Buscador() {
     <input type="text" 
     className='text-white bg-[#1f1f1f] p-2
     rounded-2xl w-85 
-    hover:bg-[#2a2a2a]'
+    hover:bg-[#2a2a2a]
+    focus:border
+    focus:border-white'
     placeholder='🔍 ¿Qué quieres reproducir?'
     />
   )

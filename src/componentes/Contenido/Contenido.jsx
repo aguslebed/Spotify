@@ -3,16 +3,14 @@ import Tarjeta from '../Tarjeta/Tarjeta'
 
 export default function Contenido() {
   return (
-    <div className='grid grid-rows-4 '>
+    <div className='grid grid-rows-4'>
         <div className="artistas-populares ">
             <h3 className='text-2xl font-bold'>Artistas Populares</h3>
             <div className="tarjetas grid grid-cols-6">
             <Tarjeta className="w-full" titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={true} imagenSrc={"rammstein.jfif"} />
             <Tarjeta className="w-full" titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={true} imagenSrc={"rammstein.jfif"} />
             <Tarjeta className="w-full" titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={true} imagenSrc={"rammstein.jfif"} />
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={true} imagenSrc={"rammstein.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={true} imagenSrc={"rammstein.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={true} imagenSrc={"rammstein.jfif"}/>
+              
             </div>
           </div>
           <div className="albumes-populares">
@@ -20,10 +18,7 @@ export default function Contenido() {
             <div className="tarjetas grid grid-cols-6">
               <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"} />
               <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
+              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/> <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
             </div>
           </div>
           <div className="emisoras-populares">
@@ -32,9 +27,7 @@ export default function Contenido() {
               <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"} />
               <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
               <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
+
             </div>
           </div>
           <div className="listas-seleccionadas">
@@ -43,9 +36,7 @@ export default function Contenido() {
               <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"} />
               <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
               <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
-              <Tarjeta titulo={"asdasd"} descripcion={"asaaaaaaaaaa"} artista={"Rammstein"} esArtista={false} imagenSrc={"zeit.jfif"}/>
+
             </div>
           </div>
     </div>

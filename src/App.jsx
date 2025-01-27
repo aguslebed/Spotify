@@ -16,9 +16,9 @@ function App() {
   </div>
 
 
-      <div className="grid grid-cols-6 z-10 ">
+      <div className="grid grid-cols-7 z-10 mx-2">
 
-        <div className="tuBiblioteca bg-[#121212] rounded-xl overflow-y-auto max-h-screen"
+        <div className="tuBiblioteca col-span-2 bg-[#121212] rounded-xl overflow-y-auto max-h-screen"
           style={{
             background: `linear-gradient(to bottom, rgba(255, 255, 255, 0.15), #121212 20%)`,
           }}
