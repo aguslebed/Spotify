@@ -10,6 +10,7 @@ function App() {
 
 
   return (
+    <>
     <div className='h-screen overflow-hidden'>
       <div className="bg-black flex flex-col">
 
@@ -40,11 +41,13 @@ function App() {
         </div>
       </div>
 
+      
       <div className="footer sticky bottom-0 z-20 bg-gradient-to-r from-pink-500 to-blue-500 ">
         <Footer />
       </div>
-
     </div>
+    
+    </>
   );
 }
 
