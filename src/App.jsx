@@ -40,7 +40,7 @@ function App() {
         </div>
       </div>
 
-      <div className="footer sticky bottom-0 z-20 bg-gradient-to-r from-pink-500 to-blue-500 p-2">
+      <div className="footer sticky bottom-0 z-20 bg-gradient-to-r from-pink-500 to-blue-500 ">
         <Footer />
       </div>
 
